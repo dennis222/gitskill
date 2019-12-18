@@ -1,0 +1,344 @@
+body{
+	font-family:'Microsoft Yahei';
+	color:#666;
+	font-size:12px;
+}
+/*top of status style */
+.header_con{
+	height:29px;
+background-color:#f7f7f7;
+border-bottom:1px solid #ddd	
+}
+
+.header{
+	width:1200px;
+	height:29px;
+	margin:0 auto;
+}
+
+.welcome{
+	font:12px/29px 'Microsoft Yahei';
+	 color:#666;
+}
+
+.user_login_link,.user_welcome,.user_shopping{
+	height:29px;
+	line-height:29px;
+}
+
+.user_login_link a,.user_welcome,.user_shopping a{
+	color:#666;
+}
+
+.user_login_link a:hover,.user_shopping a:hover{
+	color:#f80;
+}
+.user_login_link span,.user_shopping span{
+	margin:0 15px;
+	color:#cecece;
+
+}
+
+.user_welcome{
+	display:none;
+}
+
+.user_welcome em{
+	color:#f80; 
+}
+
+/*logo,搜索,购物车样式 */
+
+.logo_bar{
+	width:1200px;
+	height:115px;
+	margin:0 auto;
+
+}
+
+.logo{
+	width:151px;
+	height:59px;
+	margin:29px 0 0 17px;
+}
+
+.search{
+	width:616px;
+	height:38px;
+	border:1px solid #37ab40;
+	margin:34px 0 0 123px;
+	background:url(../image/sprite-icon.png) 6px 8px no-repeat;
+}
+
+.search .input_text{
+	width:470px;
+	height:38px;
+	border:0px;
+	margin-left:37px;
+	outline:none;
+	
+}
+
+.search .input_btn{
+	width:100px;
+	height:38px;
+	background-color:#37ab40;
+	border:0px;
+	font:14px/38px	'Microsoft Yahei';
+	color:#fff;
+	cursor:pointer;
+}
+
+.chart{
+	width:200px;
+	height:40px;
+	margin-top:34px;
+
+}
+
+.chart a{
+	width:158px;
+	height:38px;
+	background-color:#f7f7f7;
+	border:1px solid #ddd;
+	font:14px/38px 'Microsoft Yahei';
+	color:#37ab40;
+	text-indent:56px;
+	background:url(../image/sprite-icon.png) 11px -45px no-repeat;
+}
+
+.chart span{
+	width:40px;
+	height:40px;
+	background-color:#f80;
+	font:bold 18px/40px 'Microsoft Yahei';
+	color:#fff;	
+	text-align:center;
+
+}
+
+.sub_menu_con{
+	height:40px;
+	border-bottom:2px solid #37ab40; 
+}
+
+.sub_menu{
+	width:1200px;
+	height:40px;
+	margin:0 auto;
+}
+
+.sub_menu h1{
+	width:200px;
+	height:40px;
+	background-color:#37ab40;
+	font:14px/40px 'Microsoft Yahei';
+	text-align:center;
+}
+
+.sub_menu ul{
+	overflow:hidden;
+}
+.sub_menu li{
+	float:left;
+	height:14px;
+	padding:0 25px;
+	border-left:1px solid #666;
+	margin-left:-2px;
+	margin-top:13px;
+}
+
+.sub_menu li a{
+	font:14px/14px 'Microsoft Yahei';
+	color:#666;
+}
+/*左侧菜单样式 */
+.center_con{
+	width:1200px;
+	height:270px;
+	
+	margin:0 auto;
+}
+
+.center_con .main_menu{
+	width:200px;
+	height:270px;
+	overflow:hidden;
+}
+
+.center_con .main_menu li{
+	width:198px;
+	height:44px;
+	border:0.5px solid #eee;
+	margin-top:-1px;
+	background:url(../image/sprite-icon.png) 169px -441px no-repeat;
+}
+
+.center_con .main_menu li a{
+	display:block;
+	width:198px;
+	height:44px;
+	font:14px/44px 'Microsoft Yahei';
+	color:#333;
+	text-indent:71px;
+	background:url(../image/sprite-icon.png) 33px -0px no-repeat;
+}
+
+.center_con .main_menu li .fruit{
+	background-position:33px -92px;
+
+}
+
+.center_con .main_menu li .seafood{
+	background-position:32px -142px;
+}
+
+.center_con .main_menu li .meat{
+	background-position:31px -192px;
+}
+
+.center_con .main_menu li .eggs{
+	background-position:33px -242px;
+}
+
+.center_con .main_menu li .vegtable{
+	background-position:33px -292px;
+}
+
+.center_con .main_menu li .fastfood{
+	background-position:32px -344px;
+}
+
+/*幻灯片样式  */
+.slide_con{
+	width:760px;
+	height:270px;
+	position:relative;
+
+}
+
+.prve{
+	width:15px;
+	height:23px;
+	position:absolute;
+	left:11px;
+	top:122px;
+	cursor:pointer;
+	background:url(../image/sprite-icon.png) 4px -401px repeat;
+}
+
+.next{
+	left:732px;
+	background:url(../image/sprite-icon.png) 4px -451px repeat;
+}
+
+.points{
+	/*定位后的块元素和行内块元素自动转化为行内块元素  */
+	position:absolute;
+	width:100%;
+	height:11px;
+	bottom:7px;
+	left:0px;
+	text-align:center;
+	font-size:0px;
+}
+
+/*设置翻动幻灯片滚动按钮 */
+.points li{
+	width:11px;
+	height:11px;
+	display:inline-block;
+	background-color:#9f9f9f;
+	margin:0px 5px;
+	/*将幻灯片切换方块变成圆角 */
+	border-radius:50%;
+
+}
+
+.points .active{
+	background-color:#cecece;
+}
+
+.adv{
+	width:240px;
+	height:270px;
+}
+
+.adv a{
+	float:left;
+	width:240px;
+	height:135px;
+}
+
+/*解决图片下方出现三像素空白的BUG , 图片转化为block即可 */
+.adv a img{
+	display:block;
+}
+
+.common_model{
+	width:1200px;
+	height:340px;
+	margin:18px auto 0;
+
+
+}
+
+.common_model .common_title{
+	height:38px;
+	border-bottom:2px solid #42ad46;
+}
+
+.common_model .common_title h3{
+	font:bold 16px/38px 'Microsoft Yahei';
+	color:#37ab40;
+}
+
+.
+	.common_model .common_title ul{
+	height:12px;
+	border-left:1px solid #666;
+	margin:13px 0 0 20px;
+	
+}
+
+.common_model .common_title li{
+	float:left;
+	margin:0 10px;
+}
+
+.common_model .common_title li a{
+	color:#666;
+	font-size:12px;
+	line-height:10px;
+}
+
+.common_model  .common title .more{
+	height:38px;
+	line-height:38px;
+	color:666
+}
+
+.common_model   .common_goods_list{
+
+{
+
+
+width:1200px;
+height: ;
+}
+
+
+/*登录页样式 */
+
+.login_header{
+	width:953px;
+	height:133px;
+	margin:0 auto;
+	background-color:green;
+}
+
+.login_header a{
+	display:block;
+	background-color:gold;
+	margin-top:28px;
+}

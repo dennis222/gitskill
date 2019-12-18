@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>1210布局实例02</title>
+	<style type="text/css">
+		.menu{
+			list-style:none;
+			background-color:#55a8ea;
+			padding:0;
+			width:960px;
+			height:40px;
+			margin:50px auto 0;
+			position:relative;
+		}
+		.menu li{
+			float:left;
+			width:100px;
+			height:40px;
+			text-align:center;
+			line-height:40px;
+		}
+		
+		.menu a{
+			font-size:14px;
+			font-family:'Microsoft Yahei';
+			color:#fff;
+			text-decoration:none;
+
+		}
+
+		.menu .active{
+			background-color:#00619f;
+		}
+
+		.menu li:hover{
+			background-color:#00619f;
+		}
+
+		.menu .new{
+			width:60px;
+			height:50px;
+			background:url(image/new2.png) no-repeat;
+			position:absolute;
+			left:454px;
+			top:-23px;	
+		}
+
+		.menu .new:hover{
+			background:url(image/new2.png) no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<ul class="menu">
+		<li class ="active">首 页</a></li>
+		<li><a href="">网站建设</a></li>
+		<li><a href="">公司产品</a></li>
+		<li><a href="">公司文化</a></li>
+		<li><a href="">人员招聘</a></li>
+		<li><a href="">联系我们</a></li>
+		<li><a href="">关于我们</a></li>
+		<li class="new"></li>
+	</ul>
+</body>
+</html>
